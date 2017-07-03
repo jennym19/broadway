@@ -8,12 +8,17 @@ body {
   background-repeat:no-repeat;
   color:white;
   }
+.header a{
+  color:white;
+  }
 h1 {
   font-size: 70px;
   font-weight:bold;
   }
-p, a {
+li {
   font-size: 18px;
+  list-style-type:none;
+  color:white;
   }
 h2 {
   font-size:32px;
@@ -32,9 +37,15 @@ h2 {
 .sheader {
   font-size:14px;
   }
-.bottombanner {
+#footer {
+  background:dimgray;
   text-align:left;
+  color:white;
+  }
+#footer .copyright {
   font-size:11px;
   color:white;
-  background-color: dimgray;
+  }
+#footer a {
+  color:white;
   }
